@@ -1,0 +1,41 @@
+.body {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.body .search {
+  margin: 0 auto;
+  margin: 0 62px;
+}
+.body .search .searchi {
+  width: 96%;
+  outline: none;
+  border: 1px solid #d7d9d7;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 12px 0;
+}
+.body .center {
+  text-align: center;
+}
+
+@media screen and (max-width: 1028px) {
+  .body {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 828px) {
+  .body {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .body .search {
+    margin: 0 32px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .body .search {
+    margin: 0 22px;
+  }
+}

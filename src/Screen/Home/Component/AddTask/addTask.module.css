@@ -1,0 +1,160 @@
+.form {
+	margin: 14px 62px;
+	max-width: 100%;
+}
+.form .text {
+	width: 96%;
+	outline: none;
+	border: 1px solid #d7d9d7;
+	padding: 10px;
+	border-radius: 4px;
+	margin: 12px 0;
+}
+.form .des {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 12px 0;
+}
+.form .des label {
+	width: 100%;
+	font-weight: 900;
+	font-size: 14px;
+	margin: 5px 0;
+}
+.form .des textarea {
+	width: 100%;
+	height: 150px;
+	outline: none;
+	border: 1px solid #000;
+}
+.form .flex_item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form .flex_item div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form .flex_item div label {
+	width: 100%;
+	font-weight: 900;
+	font-size: 14px;
+	margin: 5px 0;
+}
+.form .flex_item .due {
+	width: 250px;
+}
+.form .flex_item .due input[type="text"] {
+	outline: none;
+	border: 1px solid #000;
+	border-right: none;
+	padding-left: 15px;
+	width: 76%;
+}
+.form .flex_item .due input[type="date"] {
+	width: 33px;
+	outline: none;
+	border: 1px solid #000;
+	height: 30px;
+	width: 14%;
+}
+.form .flex_item .due input[type="date"]::-webkit-calendar-picker-indicator {
+	width: 25px;
+	padding: 5px;
+	height: 85%;
+}
+.form .flex_item .piority {
+	width: 250px;
+}
+.form .flex_item .piority select {
+	outline: none;
+	border: 1px solid #000;
+	height: 32px;
+	width: 100%;
+	background-color: #fff;
+}
+.form .submit {
+	width: 100%;
+	margin-top: 50px;
+	padding: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.form .add {
+	background-color: #5cb85c;
+	border-radius: 5px;
+	color: #fff;
+}
+.form .cancel {
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 720px) {
+	.form .text {
+		width: 95%;
+	}
+	.form {
+		margin: 14px 32px;
+	}
+	.form .flex_item .piority {
+		width: 170px;
+	}
+	.form .flex_item .due {
+		width: 170px;
+	}
+	.form .flex_item .due input[type="text"] {
+		width: 68%;
+	}
+	.form .flex_item .due input[type="date"] {
+		width: 19%;
+	}
+}
+@media screen and (max-width: 553px) {
+	.form {
+		margin: 14px 12px;
+	}
+	.form .flex_item {
+		flex-wrap: wrap;
+	}
+	.form .flex_item .due {
+		width: 100%;
+	}
+	.form .flex_item .due input[type="text"] {
+		width: 85%;
+	}
+	.form .flex_item .due input[type="date"] {
+		width: 9%;
+	}
+	.form .flex_item .piority {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 500px) {
+	.form .flex_item .due input[type="text"] {
+		width: 84%;
+	}
+	.form .flex_item .due input[type="date"] {
+		width: 9%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.form .flex_item .due input[type="text"] {
+		width: 81%;
+	}
+	.form .flex_item .due input[type="date"] {
+		width: 11%;
+	}
+}
+@media screen and (max-width: 335px) {
+	.form .flex_item .due input[type="text"] {
+		width: 78%;
+	}
+	.form .flex_item .due input[type="date"] {
+		width: 13%;
+	}
+}

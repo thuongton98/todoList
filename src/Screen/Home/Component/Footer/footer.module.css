@@ -1,0 +1,62 @@
+.body {
+	border-top: 1px solid #000;
+	display: flex;
+	padding: 24px 32px;
+	background-color: #efefef;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+}
+.body .text {
+	font-size: 16px;
+	font-weight: 300;
+}
+.body .item {
+	display: flex;
+	justify-content: space-between;
+}
+.body .item button {
+	border: none;
+	outline: none;
+	padding: 10px 40px;
+	border-radius: 4px;
+	width: 130px;
+	cursor: pointer;
+}
+.body .item button:last-child {
+	margin-left: 20px;
+}
+.body .item .done {
+	background-color: #2196f3;
+	color: #ffffff;
+}
+.body .item .remove {
+	background-color: #d9534f;
+	color: #ffffff;
+}
+.body .add {
+	border: none;
+	outline: none;
+	padding: 10px 40px;
+	border-radius: 4px;
+	width: 130px;
+	cursor: pointer;
+	background-color: #2196f3;
+	color: #ffffff;
+}
+@media screen and (max-width: 616px) {
+	.body {
+		flex-wrap: wrap;
+	}
+	.body .text {
+		width: 100%;
+	}
+	.body .center {
+		margin: 0 auto;
+		margin-top: 22px;
+	}
+	.body .item button {
+		width: 100px;
+		padding: 10px 30px;
+	}
+}
