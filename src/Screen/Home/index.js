@@ -88,7 +88,7 @@ function Home() {
         </>
       ) : (
         <>
-          <Navbar text={"To Do List"} />
+          <Navbar text={"To Do List 1"} />
           <div className={s.search}>
             <input
               onChange={(e) => search(e.target.value)}
